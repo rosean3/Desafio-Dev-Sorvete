@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input {
+    all: unset;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+nav {
+    position: fixed;
+    height: 199px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 114px;
+    gap: 540px;
+
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+#logo1{
+    /* width: 8.33%; */
+    width: 120px;
+    height: 119px;
+}
+
+input {
+    border: none;
+    /* width: 88.4%;
+    height: 39.34%; */
+    width: 398px;
+    height: 24px;
+}
+
+#search {
+    /* width: 31.25%;
+    height: 30.65%; */
+    width: 450px;
+    height: 61px;
+    background-color: antiquewhite;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* 
+    padding: 0.84% 1.1%;  --> aparentemente, ele pega isso da tela inteira, não do tamanho do nav!
+    gap: 8.04%
+    */
+    /* padding: 8px 16px;
+    gap: 16px;  */
+    
+
+    background: #FFFFFF;
+    border: 0.5px solid rgba(96, 96, 96, 0.3);
+    border-radius: 8px;
+}
+
+#lupa {
+    padding: 0px 16px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(96, 96, 96, 0.6);
+    padding: 0px 0px;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(96, 96, 96, 0.6);
+    padding: 0px 0px;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(96, 96, 96, 0.6);
+    padding: 0px 0px;
+}
+
+/* ----------------- CONTENT ------------------------------ */
+
+#content {
+    background-color: #FAFAFA;
+    display: flex;
+    padding: 0px 114px;
+    padding-top: 279px; /* 80 de padding e 199 de margin. Coloquei tudo padding,
+    porque a cor do fundo ainda continua atrás da navbar*/
+    height: 589.98px;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+
+
+#quadro2, #quadro4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 512px;
+
+}
+
+.img-menor-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 24px;
+    gap: 31px; */
+
+    width: 240px;
+    height: 240px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+#brigadeiro img {
+    width: 192px;
+    height: 192px;
+}
+
+.quadro h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    width: 270px;
+    height: 39px;  
+
+
+    color: #292929;
+}
+
+.quadro p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    width: 270px;
+    height: 40px;
+
+    color: #606060;
+}
+
+.price p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 89px;
+    height: 29px;
+
+    color: #000000;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 8px;
+    gap: 10px; */
+
+    width: 105px;
+    height: 45px;
+
+    background: rgba(249, 199, 191, 0.5);
+    border-radius: 8px;
+}
+
+#quadro1, #quadro3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 24px;
+    /* 
+    gap: 31px; */
+
+    width: 270px;
+    height: 464px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+#quadro2, #quadro4 {
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/* ---------------------------- FOOTER --------------------- */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 155.02px;
+
+    background: #F2F2F2;
+}
+
+#facebook {
+    margin: 0px 15px 0px 15px;
+}
+
+#logo2 {
+    margin: 0px 323px 0px 441px;
+}
