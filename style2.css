@@ -122,7 +122,7 @@ input {
 #quadro1, #quadro3 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
 
     width: 175.71px;
     height: 283px;
@@ -143,6 +143,7 @@ input {
 .img-maior {
     width: 149.19px;
     height: 149.19px;
+    margin: 13.26px 13.26px 0px 13.26px;
 }
 
 .img-menor {
@@ -191,6 +192,8 @@ input {
     line-height: 22px;
     /* identical to box height */
 
+    margin: 0px 13.26px 4.42px 13.26px;
+
 
     color: #292929;
 }
@@ -205,5 +208,69 @@ input {
     font-size: 8.84068px;
     line-height: 11px;
 
+    margin: 0px 13.26px 0px 13.26px;
+
     color: #606060;
+}
+
+.price p {
+    width: 49px;
+    height: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.261px;
+    line-height: 16px;
+
+    margin: 0px 0px 0px 0px;
+
+    color: #000000;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4.42034px; */
+    gap: 5.53px;
+
+    width: 57.84px;
+    height: 24.84px;
+
+    background: rgba(249, 199, 191, 0.5);
+    border-radius: 4.42034px;
+    margin: 0px 0px 13.03px 13.26px;
+}
+
+/* ---------------------------- FOOTER --------------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 128px;
+
+    background: #F2F2F2;
+}
+
+#logo2 {
+    width: 0px;
+    height: 0px;
+    order: last;
+}
+
+.icones {
+    width: 25px;
+}
+
+#facebook {
+    margin: 0px 30px 0px 30px;
+}
+
+#final-message {
+    margin-top: 24px;
 }

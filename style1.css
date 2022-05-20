@@ -196,6 +196,7 @@ input {
     font-size: 32px;
     line-height: 39px;
     /* identical to box height */
+    margin-bottom: 8px;
 
     width: 270px;
     height: 39px;  
@@ -236,7 +237,7 @@ input {
     /* padding: 8px;
     gap: 10px; */
 
-    width: 105px;
+    width: 103px;
     height: 45px;
 
     background: rgba(249, 199, 191, 0.5);
@@ -246,7 +247,6 @@ input {
 #quadro1, #quadro3 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: space-between;
 
     padding: 24px;
@@ -279,6 +279,10 @@ footer {
     height: 155.02px;
 
     background: #F2F2F2;
+}
+
+.icones {
+    width: 35px;
 }
 
 #facebook {
