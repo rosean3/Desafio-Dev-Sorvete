@@ -51,8 +51,8 @@ input {
     all: unset;
 }
 
-/* --------------------------------------------------------------------------------------------------- */
-
+/* ---------------------------------------------- NAVBAR----------------------------------------------------- */
+    /* ------------------- geral ------------------- */
 nav {
     position: fixed;
     height: 199px;
@@ -71,12 +71,14 @@ nav {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
 }
 
+    /* ------------------- logo ------------------- */
 #logo1{
     /* width: 8.33%; */
     width: 120px;
     height: 119px;
 }
 
+    /* ------------------- logo ------------------- */
 input {
     border: none;
     /* width: 88.4%;
@@ -145,8 +147,8 @@ input {
     padding: 0px 0px;
 }
 
-/* ----------------- CONTENT ------------------------------ */
-
+/* ---------------------------------------------- CONTENT ---------------------------------------------- */
+    /* ------------------- geral ------------------- */
 #content {
     background-color: #FAFAFA;
     display: flex;
@@ -158,37 +160,7 @@ input {
     align-items: space-between;
 }
 
-
-
-#quadro2, #quadro4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 512px;
-
-}
-
-.img-menor-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* padding: 24px;
-    gap: 31px; */
-
-    width: 240px;
-    height: 240px;
-
-    background-color: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
-    border-radius: 16px;
-}
-
-#brigadeiro img {
-    width: 192px;
-    height: 192px;
-}
-
+        /* ----------- texto ----------- */
 .quadro h1 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -218,6 +190,32 @@ input {
     color: #606060;
 }
 
+    /* ------------------- quadros grandes ------------------- */
+        /* ----------- geral ----------- */
+
+#quadro1, #quadro3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 24px;
+    /* 
+    gap: 31px; */
+
+    width: 270px;
+    height: 464px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
+
+                /* ----------- elementos ----------- */
+.img-maior {
+    width: 270px;
+    height: 270px;
+}
+
 .price p {
     font-family: 'Montserrat';
     font-style: normal;
@@ -244,29 +242,36 @@ input {
     border-radius: 8px;
 }
 
-#quadro1, #quadro3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    padding: 24px;
-    /* 
-    gap: 31px; */
-
-    width: 270px;
-    height: 464px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
-    border-radius: 16px;
-}
+    /* ------------------- quadros menores ------------------- */
 
 #quadro2, #quadro4 {
-    height: 512px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 512px;
 
+}
+
+                /* ----------- elementos ----------- */
+.img-menor {
+    width: 192px;
+    height: 192px;
+}
+
+.img-menor-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 24px;
+    gap: 31px; */
+
+    width: 240px;
+    height: 240px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
 }
 
 /* ---------------------------- FOOTER --------------------- */
@@ -283,6 +288,11 @@ footer {
 
 .icones {
     width: 35px;
+}
+
+#logo2 {
+    width: 60px;
+    height: 59.02px;
 }
 
 #facebook {
