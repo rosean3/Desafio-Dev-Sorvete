@@ -51,8 +51,8 @@ input {
     all: unset;
 }
 
-/* --------------------------------------------------------------------------------------------------- */
-
+/* ---------------------------------------------- NAVBAR----------------------------------------------------- */
+    /* ------------------- geral ------------------- */
 nav {
     position: fixed;
     height: 129.42px;
@@ -69,20 +69,18 @@ nav {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
 }
 
-input {
-    overflow: hidden;
-}
-
+    /* ------------------- logo ------------------- */
 #logo1 {
     width: 70px;
     height: 69.42px;
     margin: 40px 0px 20px 0px;
 }
 
-#lupa {
-    width: 13.37px;
-    height: 13.37px;
-    padding: 13.315px 13.315px;
+    /* ------------------- search ------------------- */
+
+input {
+    width: 40px;
+    height: 40px;
 }
 
 #search {
@@ -102,8 +100,19 @@ input {
     margin: 54.71px 0px 20px 34.71px;
 }
 
-/* ----------------- CONTENT ------------------------------ */
+#lupa {
+    display: none;
+}
 
+#search-box {
+    width: 13.37px;
+    height: 13.37px;
+    background-image: url(./assets/magnifyingglass.svg);
+    background-size: cover;
+}
+
+/* ---------------------------------------------- CONTENT ---------------------------------------------- */
+    /* ------------------- geral ------------------- */
 #content {
     /* height + padding */
     background-color: #FAFAFA;
@@ -119,55 +128,6 @@ input {
     justify-content: space-between;
 }
 
-#quadro1, #quadro3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    width: 175.71px;
-    height: 283px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
-    border-radius: 8.84068px;
-}
-
-#quadro2, #quadro4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    height: 283px
-}
-
-.img-maior {
-    width: 149.19px;
-    height: 149.19px;
-    margin: 13.26px 13.26px 0px 13.26px;
-}
-
-.img-menor {
-    width: 106.09px;
-    height: 106.09px;
-}
-
-.img-menor-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
-
-    width: 132.61px;
-    height: 132.66px;
-
-
-    background: #FFFFFF;
-    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
-    border-radius: 8.84068px;
-}
-
 #quadro1 {
     order: 1;
 }
@@ -181,6 +141,7 @@ input {
     order: 4;
 }
 
+        /* ----------- texto ----------- */
 .quadro h1 {
     width: 149.19px;
     height: 22px;
@@ -213,6 +174,26 @@ input {
     color: #606060;
 }
 
+    /* ------------------- quadros grandes ------------------- */
+#quadro1, #quadro3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 175.71px;
+    height: 283px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
+}
+
+.img-maior {
+    width: 149.19px;
+    height: 149.19px;
+    margin: 13.26px 13.26px 0px 13.26px;
+}
+
 .price p {
     width: 49px;
     height: 16px;
@@ -243,7 +224,39 @@ input {
     margin: 0px 0px 13.03px 13.26px;
 }
 
-/* ---------------------------- FOOTER --------------------- */
+    /* ------------------- quadros menores ------------------- */
+
+#quadro2, #quadro4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 283px
+}
+
+.img-menor {
+    width: 106.09px;
+    height: 106.09px;
+}
+
+.img-menor-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+    width: 132.61px;
+    height: 132.66px;
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 2.21017px 8.84068px rgba(0, 0, 0, 0.04);
+    border-radius: 8.84068px;
+}
+
+/* ---------------------------------------------- FOOTER ---------------------------------------------- */
 
 footer {
     display: flex;
@@ -257,14 +270,12 @@ footer {
     background: #F2F2F2;
 }
 
-#logo2 {
-    width: 0px;
-    height: 0px;
-    order: last;
-}
-
 .icones {
     width: 25px;
+}
+
+#logo2 {
+    display: none;
 }
 
 #facebook {
