@@ -162,6 +162,7 @@ input {
     padding-top: 279px; --> 80 de padding e 199 de margin. Coloquei tudo padding,
     porque a cor do fundo ainda continua atrás da navbar
     height: 589.98px;*/
+
     justify-content: space-between;
     align-items: space-between;
 }
