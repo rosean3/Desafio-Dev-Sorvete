@@ -330,6 +330,8 @@ footer {
     height: 4.0986111vw;
     /* width: 60px;
     height: 59.02px; */
+    margin: 0px 22.43055556vw 0px 30.625vw;
+    /* margin: 0px 323px 0px 441px; */
 }
 
 #facebook {
@@ -337,7 +339,21 @@ footer {
     /* margin: 0px 15px 0px 15px; */
 }
 
-#logo2 {
-    margin: 0px 22.43055556vw 0px 30.625vw;
-    /* margin: 0px 323px 0px 441px; */
+#final-message {
+    width: 18.4vw;
+    height: 1.180555556vw;
+    /* width: 253px;
+    height: 17px; */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.97222222vw;
+    line-height: 1.180555556vw;
+    /* identical to box height */
+    /* font-size: 14px;
+    line-height: 17px; */
+
+
+    color: #292929;
 }

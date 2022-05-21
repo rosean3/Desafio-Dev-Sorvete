@@ -268,7 +268,8 @@ footer {
     justify-content: center;
     align-items: center;
 
-    height: 128px;
+    height: 32.8205vw;
+    /* height: 128px; */
 
     background: #F2F2F2;
 }
@@ -286,5 +287,5 @@ footer {
 }
 
 #final-message {
-    margin-top: 24px;
+    margin-top: 6.1538461vw;
 }
