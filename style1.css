@@ -152,7 +152,7 @@ input {
 #content {
     background-color: #FAFAFA;
     display: flex;
-    padding: 0px 114px;
+    padding: 0% 7.916%;
     padding-top: 279px; /* 80 de padding e 199 de margin. Coloquei tudo padding,
     porque a cor do fundo ainda continua atrás da navbar*/
     height: 589.98px;
