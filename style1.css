@@ -55,7 +55,7 @@ input {
     /* ------------------- geral ------------------- */
 nav {
     position: fixed;
-    height: 199px;
+    height: 13.819vw;
     left: 0%;
     right: 0%;
     top: 0px;
@@ -64,62 +64,61 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 114px;
-    gap: 540px;
+    padding: 0px 7.9166vw; /*114px*/
 
     background: rgba(255, 255, 255, 0.6);
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 0.2777778vw 1.11111111vw rgba(0, 0, 0, 0.04);
+    /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04); */
 }
 
     /* ------------------- logo ------------------- */
 #logo1{
     /* width: 8.33%; */
-    width: 120px;
-    height: 119px;
+    width: 8.33vw; /*120px*/
+    height: 8.263vw; /*119px*/
 }
 
     /* ------------------- logo ------------------- */
 input {
     border: none;
-    /* width: 88.4%;
-    height: 39.34%; */
-    width: 398px;
-    height: 24px;
+    width: 88.4vw;  /*398px*/
+    height: 1.666vw; /*24px*/
 }
 
 #search {
-    /* width: 31.25%;
-    height: 30.65%; */
-    width: 450px;
-    height: 61px;
+    /* width: 450px;
+    height: 61px; */
+    width: 31.25vw;
+    height: 4.236vw;
     background-color: antiquewhite;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* 
-    padding: 0.84% 1.1%;  --> aparentemente, ele pega isso da tela inteira, não do tamanho do nav!
-    gap: 8.04%
-    */
     /* padding: 8px 16px;
     gap: 16px;  */
     
 
     background: #FFFFFF;
-    border: 0.5px solid rgba(96, 96, 96, 0.3);
-    border-radius: 8px;
+    border: 0.034722222vw solid rgba(96, 96, 96, 0.3);
+    border-radius: 0.5555556vw;
+    /* border: 0.5px solid rgba(20, 96, 96, 0.3);
+    border-radius: 8px; */
 }
 
 #lupa {
-    padding: 0px 16px;
+    padding: 0px 1.1111111111vw;
+    /* padding: 0px 16px; */
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.38888889vw;
+    line-height: 1.6666667vw;
+    /* font-size: 20px;
+    line-height: 24px; */
 
     color: rgba(96, 96, 96, 0.6);
     padding: 0px 0px;
@@ -129,8 +128,10 @@ input {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.38888889vw;
+    line-height: 1.6666667vw;
+    /* font-size: 20px;
+    line-height: 24px; */
 
     color: rgba(96, 96, 96, 0.6);
     padding: 0px 0px;
@@ -140,8 +141,10 @@ input {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.38888889vw;
+    line-height: 1.6666667vw;
+    /* font-size: 20px;
+    line-height: 24px; */
 
     color: rgba(96, 96, 96, 0.6);
     padding: 0px 0px;
@@ -152,10 +155,13 @@ input {
 #content {
     background-color: #FAFAFA;
     display: flex;
-    padding: 0px 114px;
-    padding-top: 279px; /* 80 de padding e 199 de margin. Coloquei tudo padding,
-    porque a cor do fundo ainda continua atrás da navbar*/
-    height: 589.98px;
+    padding: 0px 7.916vw;
+    padding-top: 19.375vw;
+    height: 40.97083333vw;
+    /* padding: 0px 114px;
+    padding-top: 279px; --> 80 de padding e 199 de margin. Coloquei tudo padding,
+    porque a cor do fundo ainda continua atrás da navbar
+    height: 589.98px;*/
     justify-content: space-between;
     align-items: space-between;
 }
@@ -165,13 +171,19 @@ input {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 2.22222vw;
+    line-height: 2.708333vw;
     /* identical to box height */
-    margin-bottom: 8px;
+    margin-bottom: 0.55555556vw;
 
+    width: 18.75vw;
+    height: 2.708333vw; 
+
+    /* font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 8px;
     width: 270px;
-    height: 39px;  
+    height: 39px;   */
 
 
     color: #292929;
@@ -181,11 +193,16 @@ input {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.111111vw;
+    line-height: 1.38888889vw;
 
+    width: 18.75vw;
+    height: 2.7777778vw;
+
+    /* font-size: 16px;
+    line-height: 20px;
     width: 270px;
-    height: 40px;
+    height: 40px; */
 
     color: #606060;
 }
@@ -198,32 +215,41 @@ input {
     flex-direction: column;
     justify-content: space-between;
 
-    padding: 24px;
-    /* 
-    gap: 31px; */
-
+    padding: 1.6666667vw;
+    width: 18.75vw;
+    height: 32.222222vw;
+    
+    /* padding: 24px;
     width: 270px;
-    height: 464px;
+    height: 464px; */
 
     background: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
-    border-radius: 16px;
+    box-shadow: 0vw 0.2777778vw 1.11111111vw rgba(0, 0, 0, 0.04);
+    border-radius: 1.11111111vw;
+    /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px; */
 }
 
                 /* ----------- elementos ----------- */
 .img-maior {
-    width: 270px;
-    height: 270px;
+    width: 18.75vw;;
+    height: 18.75vw;
+    /* width: 270px;
+    height: 270px; */
 }
 
 .price p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.6666667vw;
+    line-height: 2.013888889vw;
+    width: 6.1805556vw;
+    height: 2.013888889vw;
+    /* font-size: 24px;
     line-height: 29px;
     width: 89px;
-    height: 29px;
+    height: 29px; */
 
     color: #000000;
 }
@@ -232,14 +258,15 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 8px;
-    gap: 10px; */
 
-    width: 103px;
-    height: 45px;
+    width: 7.152777vw;
+    height: 3.125vw;
+    /* width: 103px;
+    height: 45px; */
 
     background: rgba(249, 199, 191, 0.5);
-    border-radius: 8px;
+    border-radius: 0.5555556vw;
+    /* border-radius: 8px; */
 }
 
     /* ------------------- quadros menores ------------------- */
@@ -248,14 +275,17 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 512px;
+    height: 35.555556vw;
+    /* height: 512px; */
 
 }
 
                 /* ----------- elementos ----------- */
 .img-menor {
-    width: 192px;
-    height: 192px;
+    width: 13.33333vw;
+    height: 13.33333vw;
+    /* width: 192px;
+    height: 192px; */
 }
 
 .img-menor-div {
@@ -263,15 +293,18 @@ input {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* padding: 24px;
-    gap: 31px; */
 
-    width: 240px;
-    height: 240px;
+    width: 16.66666667vw;
+    height: 16.66666667vw;
+
+    /* width: 240px;
+    height: 240px; */
 
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
-    border-radius: 16px;
+    box-shadow: 0px 0.27777778vw 1.111111111vw rgba(0, 0, 0, 0.04);
+    border-radius: 1.111111111vw;
+    /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px; */
 }
 
 /* ---------------------------- FOOTER --------------------- */
@@ -281,24 +314,30 @@ footer {
     align-items: center;
     justify-content: center;
 
-    height: 155.02px;
+    height: 10.7652vw;
+    /* height: 155.02px; */
 
     background: #F2F2F2;
 }
 
 .icones {
-    width: 35px;
+    width: 2.4305556vw;
+    /* width: 35px; */
 }
 
 #logo2 {
-    width: 60px;
-    height: 59.02px;
+    width: 4.166667vw;
+    height: 4.0986111vw;
+    /* width: 60px;
+    height: 59.02px; */
 }
 
 #facebook {
-    margin: 0px 15px 0px 15px;
+    margin: 0px 1.0416667vw 0px 1.0416667vw;
+    /* margin: 0px 15px 0px 15px; */
 }
 
 #logo2 {
-    margin: 0px 323px 0px 441px;
+    margin: 0px 22.43055556vw 0px 30.625vw;
+    /* margin: 0px 323px 0px 441px; */
 }
